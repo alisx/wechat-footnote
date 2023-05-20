@@ -1,0 +1,49 @@
+.footnote-word {
+    font-weight: bold;
+}
+
+.footnote-ref {
+    font-weight: bold;
+}
+
+.footnote-item {
+    display: flex;
+}
+
+.footnote-num {
+    display: inline;
+    width: 5%;
+    background: none;
+    font-size: 80%;
+    opacity: 0.6;
+    line-height: 26px;
+}
+
+.footnote-item p {
+    display: inline;
+    font-size: 14px;
+    width: 90%;
+    padding: 0px;
+    margin: 0;
+    line-height: 26px;
+    color: black;
+    word-break: break-all;
+    width: calc(100%-50)
+}
+
+sub,
+sup {
+    line-height: 0;
+}
+
+.footnotes-sep:before {
+    display: block;
+}
+
+.footnote-em {
+    padding-left: 10px;
+}
+
+.footnote-title {
+    width: 5%;
+}
