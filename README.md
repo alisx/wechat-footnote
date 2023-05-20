@@ -38,6 +38,8 @@
 
 下载本项目，用浏览器打开 `demo.html` 查看效果
 
+![demo](demo.png)
+
 ## Todo
 
 1. 支持 markdown 中 `<http://www.example.com>` 类的链接
