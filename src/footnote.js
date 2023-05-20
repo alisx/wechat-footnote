@@ -57,7 +57,7 @@ function CreateFootnote() {
         }
     });
 
-    // 插入脚注元素
+    // 插入脚注元素 请查看 Html 文件中，文章内容块的标记，将 #write 换成目标内容块的标记
     document.querySelector('#write').appendChild(h3)
     document.querySelector('#write').appendChild(section);
 }
