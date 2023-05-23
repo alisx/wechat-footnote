@@ -73,6 +73,6 @@ function CreateFootnote() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    CreateFootnote();
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     CreateFootnote();
+// });
