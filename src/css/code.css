@@ -1,0 +1,256 @@
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    background: #f0f0f0;
+}
+
+.hljs,
+.hljs-subst {
+    color: #444;
+}
+
+.hljs-comment {
+    color: #888a
+}
+
+.hljs-attribute,
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta-keyword,
+.hljs-name,
+.hljs-selector-tag {
+    font-weight: 700
+}
+
+.hljs-deletion,
+.hljs-number,
+.hljs-quote,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-string,
+.hljs-template-tag,
+.hljs-type {
+    color: #800
+}
+
+.hljs-section,
+.hljs-title {
+    color: #800;
+    font-weight: 700
+}
+
+.hljs-link,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-symbol,
+.hljs-template-variable,
+.hljs-variable {
+    color: #bc6060
+}
+
+.hljs-literal {
+    color: #78a960
+}
+
+.hljs-addition,
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code {
+    color: #397300
+}
+
+.hljs-meta {
+    color: #1f7199
+}
+
+.hljs-meta-string {
+    color: #4d99bf
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: 700
+}
+
+/* ---------- */
+.hljs-keyword {
+    color: rgb(119, 0, 136);
+}
+
+.hljs-atom,
+.hljs-s-inner.hljs-atom {
+    color: rgb(34, 17, 153);
+}
+
+.hljs-number {
+    color: rgb(17, 102, 68);
+}
+
+.hljs-def {
+    color: rgb(0, 0, 255);
+}
+
+.hljs-variable {
+    color: rgb(0, 0, 0);
+}
+
+.hljs-variable-2 {
+    color: rgb(0, 85, 170);
+}
+
+.hljs-variable-3 {
+    color: rgb(0, 136, 85);
+}
+
+.hljs-string {
+    color: rgb(170, 17, 17);
+}
+
+.hljs-property {
+    color: rgb(0, 0, 0);
+}
+
+.hljs-operator {
+    color: rgb(152, 26, 26);
+}
+
+.hljs-comment,
+.hljs-s-inner.hljs-comment {
+    color: rgb(170, 85, 0);
+}
+
+.hljs-string-2 {
+    color: rgb(255, 85, 0);
+}
+
+.hljs-meta {
+    color: rgb(85, 85, 85);
+}
+
+.hljs-qualifier {
+    color: rgb(85, 85, 85);
+}
+
+.hljs-builtin {
+    color: rgb(51, 0, 170);
+}
+
+.hljs-bracket {
+    color: rgb(153, 153, 119);
+}
+
+.hljs-tag {
+    color: rgb(17, 119, 0);
+}
+
+.hljs-attribute {
+    color: rgb(0, 0, 204);
+}
+
+.hljs-header,
+.hljs-s-inner.hljs-header {
+    color: rgb(0, 0, 255);
+}
+
+.hljs-quote,
+.hljs-s-inner.hljs-quote {
+    color: rgb(0, 153, 0);
+}
+
+.hljs-hr,
+.hljs-s-inner.hljs-hr {
+    color: rgb(153, 153, 153);
+}
+
+.hljs-link,
+.hljs-s-inner.hljs-link {
+    color: rgb(0, 0, 204);
+}
+
+.hljs-negative {
+    color: rgb(221, 68, 68);
+}
+
+.hljs-positive {
+    color: rgb(34, 153, 34);
+}
+
+.hljs-header,
+.hljs-strong {
+    font-weight: 700;
+}
+
+.hljs-del {
+    text-decoration: line-through;
+}
+
+.hljs-em {
+    font-style: italic;
+}
+
+.hljs-link {
+    text-decoration: underline;
+}
+
+.hljs-error {
+    color: red;
+}
+
+.hljs-invalidchar {
+    color: red;
+}
+
+.hljs-constant {
+    color: rgb(38, 139, 210);
+}
+
+.hljs-defined {
+    color: rgb(181, 137, 0);
+}
+
+.hljs-searching {
+    background: rgba(255, 255, 0, 0.4);
+}
+
+span.hljs-underlined {
+    text-decoration: underline;
+}
+
+span.hljs-strikethrough {
+    text-decoration: line-through;
+}
+
+.hljs-tw-syntaxerror {
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 0, 0);
+}
+
+.hljs-tw-deleted {
+    text-decoration: line-through;
+}
+
+.hljs-tw-header5 {
+    font-weight: 700;
+}
+
+.hljs-tw-listitem:first-child {
+    padding-left: 10px;
+}
+
+.hljs-tw-box {
+    border-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: inherit;
+    border-top-width: 0px !important;
+}
+
+.hljs-tw-underline {
+    text-decoration: underline;
+}

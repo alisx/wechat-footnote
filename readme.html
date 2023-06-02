@@ -1,0 +1,52 @@
+<h2 id="微信外链转脚注">微信外链转脚注</h2>
+<p>一个可以将微信外链替换成脚注的 JS 脚本和 CSS 样式，支持 Typora Html
+导出。</p>
+<h2 id="特性">特性</h2>
+<ol class="incremental" type="1">
+<li>自动查找文件中的所有链接</li>
+<li>只对微信外链进行操作</li>
+<li>自动对外链编号</li>
+<li>重复链接使用相同编号</li>
+<li>链接没有 title 属性的用 innerText 做标题</li>
+</ol>
+<h2 id="代码">代码</h2>
+<ul class="incremental">
+<li><code>src/footnote.css</code> 脚注样式</li>
+<li><code>src/footnote.js</code> 脚注脚本</li>
+</ul>
+<h2 id="用法">用法</h2>
+<h3 id="typora">Typora</h3>
+<ol class="incremental" type="1">
+<li>打开 Typora，依次点击 <code>文件</code>-&gt; <code>偏好设置</code>
+-&gt; <code>导出</code>，在 <code>Export</code> 中选择
+<code>HTML</code></li>
+<li>复制 <code>reference.html</code> 文件中的内容，粘贴到
+<code>在 &lt;head /&gt; 中添加</code> 的输入框中</li>
+<li>点击右上角 <code>X</code> 关闭设置页面</li>
+<li>编辑完文章后，点击 <code>文件</code>-&gt; <code>导出</code>，选择
+<code>HTML</code>，完成导出</li>
+<li>此时生成的 html 文件中的链接已经被替换成脚注</li>
+</ol>
+<h3 id="html">Html</h3>
+<blockquote>
+<p><strong>注意：</strong> 脚本中，插入脚注的元素为
+<code>#write</code>，即 Typora 中的内容块，请根据目标 Html
+文件内容块标记修改插入目标元素选择方式，如用 <code>.content</code>
+等。</p>
+</blockquote>
+<ol class="incremental" type="1">
+<li>复制 <code>reference.html</code> 文件中的内容，粘贴到 html 文件的
+<code>head</code> 中</li>
+<li>用浏览器打开 html 文件，即可查看效果</li>
+</ol>
+<h3 id="演示">演示</h3>
+<p>下载本项目，用浏览器打开 <code>demo.html</code> 查看效果</p>
+<figure>
+<img src="demo.png" alt="demo" />
+<figcaption aria-hidden="true">demo</figcaption>
+</figure>
+<h2 id="todo">Todo</h2>
+<ol class="incremental" type="1">
+<li>支持 markdown 中 <code>&lt;http://www.example.com&gt;</code>
+类的链接</li>
+</ol>
