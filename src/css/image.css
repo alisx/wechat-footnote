@@ -1,0 +1,13 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
